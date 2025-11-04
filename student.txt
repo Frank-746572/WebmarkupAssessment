@@ -1,5 +1,5 @@
 Student name: Frank Weel 
 Student number: 746572
 Student class: HAINF25VT1B
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/Frank-746572/WebmarkupAssessment
+GitHub Pages URL: https://frank-746572.github.io/WebmarkupAssessment/
