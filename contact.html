@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="icon" type="image/jpeg" href="img/favicon.jpeg">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="img/logo.png" alt="RepairWise logo" />
+            <h1>RepairWise</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" title="Home page">Home</a></li>
+                <li><a href="environmental-impact.html">Milieueffect</a></li>
+                <li><a href="financial-benefits.html">Financiële voordelen</a></li>
+                <li><a href="repair-in-practice.html">Reparatie in de praktijk</a></li>
+                <li><a href="right-to-repair.html">Right to repair</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-section">
+      <div class="contact-intro">
+        <h2>Neem contact op</h2>
+        <p>Heb je vragen over repareren, onderdelen of iets anders? We horen graag van je!</p>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="aanhef">Aanhef*</label>
+          <select id="aanhef" name="aanhef" required>
+            <option value="">Selecteer</option>
+            <option value="dhr">Dhr.</option>
+            <option value="mevr">Mevr.</option>
+            <option value="anders">Anders</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="naam">Naam*</label>
+          <input type="text" id="naam" name="naam" placeholder="John Doe" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail*</label>
+          <input type="email" id="email" name="email" placeholder="name@domain.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="telefoon">Telefoonnummer</label>
+          <input type="tel" id="telefoon" name="telefoon" placeholder="+31 6 12345678" />
+        </div>
+
+        <div class="form-group">
+          <label for="bericht">Bericht*</label>
+          <textarea id="bericht" name="bericht" placeholder="Vul hier je bericht in" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Versturen</button>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+        <div class="logo">
+          <img src="img/logo.png" alt="RepairWise logo" />
+          <p>RepairWise</p>
+        </div>
+        <p>© 2025 Repair Wise - Alle rechten voorbehouden</p>
+      </div>
+    </footer>
+</body>
+</html>
