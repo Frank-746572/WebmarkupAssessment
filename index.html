@@ -1,97 +1,111 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RepairWise - Repareer slim. Bespaar geld. Bescherm de planeet.</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RepairWise - Repareer slim. Bespaar geld. Bescherm de planeet.</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
+
 <body>
-    <header class="site-header">
-        <div class="logo">
-            <img src="img/logo.png" alt="RepairWise logo" />
-            <h1>RepairWise</h1>
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html" title="Home page" class="active">Home</a></li>
-                <li><a href="environmental-impact.html">Milieueffect</a></li>
-                <li><a href="financial-benefits.html">Financiële voordelen</a></li>
-                <li><a href="repair-in-practice.html">Reparatie in de praktijk</a></li>
-                <li><a href="right-to-repair.html">Right to repair</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!--Header-->
+  <header class="site-header">
+    <div class="logo">
+      <img src="img/logo.png" alt="RepairWise logo" />
+      <h1>RepairWise</h1>
+    </div>
 
-    <section class="hero">
-        <img src="img/index-hero.jpg" alt="Hero banner" class="hero-img"/>
-        <div class="hero-content">
-            <h2>Repareer slim. Bespaar geld. Bescherm de planeet.</h2>
-            <p>
-                Welkom bij RepairWise — jouw gids voor duurzaam leven. Wij geloven dat
-                repareren beter is dan vervangen. Door kapotte producten nieuw leven
-                in te blazen, bespaar je geld, verminder je afval en draag je bij aan
-                een schonere wereld.
-            </p>
-            <a href="environmental-impact.html" class="btn-primary">Ontdek waarom repareren loont</a>
-        </div>
-    </section>
+    <!-- Hamburger -->
+    <input type="checkbox" id="nav-toggle" class="nav-checkbox" />
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
 
-    <section id="info-grid">
-        <article class="info-card">
-        <img src="img/index-recycle.png" alt="Milieu icoon" />
-        <h3>Milieu</h3>
-        <p>
-          Leer hoe kleine reparaties een grote impact kunnen hebben op onze
-          planeet en ontdek feiten die je zullen verrassen.
-        </p>
-      </article>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html" title="Home page" class="active">Home</a></li>
+        <li><a href="environmental-impact.html">Milieueffect</a></li>
+        <li><a href="financial-benefits.html">Financiële voordelen</a></li>
+        <li><a href="repair-in-practice.html">Reparatie in de praktijk</a></li>
+        <li><a href="right-to-repair.html">Right to repair</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <article class="info-card">
-        <img src="img/index-finance.png" alt="Financiën icoon" />
-        <h3>Financiën</h3>
-        <p>
-          Ontdek hoe je met eenvoudige reparaties flink kunt besparen, en waarom
-          het goedkoper is om te herstellen dan om steeds nieuw te kopen.
-        </p>
-      </article>
+  <!-- Hero -->
+  <section class="hero">
+    <img src="img/index-hero.jpg" alt="Hero banner" class="hero-img" />
+    <div class="hero-content">
+      <h2>Repareer slim. Bespaar geld. Bescherm de planeet.</h2>
+      <p>
+        Welkom bij RepairWise — jouw gids voor duurzaam leven. Wij geloven dat
+        repareren beter is dan vervangen. Door kapotte producten nieuw leven
+        in te blazen, bespaar je geld, verminder je afval en draag je bij aan
+        een schonere wereld.
+      </p>
+      <a href="environmental-impact.html" class="btn-primary">Ontdek waarom repareren loont</a>
+    </div>
+  </section>
 
-      <article class="info-card">
-        <img src="img/index-screwdriver.png" alt="Zelf repareren icoon" />
-        <h3>Zelf repareren</h3>
-        <p>
-          Wil je zelf aan de slag? Of zoek je een plek in Haarlem waar je hulp
-          kunt krijgen? Bekijk tips, handige tools en lokale Repair Cafés waar
-          experts klaarstaan om je te helpen.
-        </p>
-      </article>
+  <!-- Blocks -->
+  <section id="info-grid">
+    <article class="info-card">
+      <img src="img/index-recycle.png" alt="Milieu icoon" />
+      <h3>Milieu</h3>
+      <p>
+        Leer hoe kleine reparaties een grote impact kunnen hebben op onze
+        planeet en ontdek feiten die je zullen verrassen.
+      </p>
+    </article>
 
-      <article class="info-card">
-        <img src="img/index-right-to-repair.png" alt="Right to repair icoon" />
-        <h3>Right to repair</h3>
-        <p>
-          Lees hoe Europese wetgeving en duurzame initiatieven ervoor zorgen dat
-          repareren weer normaal wordt — en wat jij kunt doen om dat te steunen.
-        </p>
-      </article>
-    </section>
+    <article class="info-card">
+      <img src="img/index-finance.png" alt="Financiën icoon" />
+      <h3>Financiën</h3>
+      <p>
+        Ontdek hoe je met eenvoudige reparaties flink kunt besparen, en waarom
+        het goedkoper is om te herstellen dan om steeds nieuw te kopen.
+      </p>
+    </article>
 
-    <footer class="site-footer">
-        <div class="footer-content">
-        <div class="logo">
-          <img src="img/logo.png" alt="RepairWise logo" />
-          <p>RepairWise</p>
-        </div>
-        <p>© 2025 Repair Wise - Alle rechten voorbehouden</p>
+    <article class="info-card">
+      <img src="img/index-screwdriver.png" alt="Zelf repareren icoon" />
+      <h3>Zelf repareren</h3>
+      <p>
+        Wil je zelf aan de slag? Of zoek je een plek in Haarlem waar je hulp
+        kunt krijgen? Bekijk tips, handige tools en lokale Repair Cafés waar
+        experts klaarstaan om je te helpen.
+      </p>
+    </article>
+
+    <article class="info-card">
+      <img src="img/index-right-to-repair.png" alt="Right to repair icoon" />
+      <h3>Right to repair</h3>
+      <p>
+        Lees hoe Europese wetgeving en duurzame initiatieven ervoor zorgen dat
+        repareren weer normaal wordt — en wat jij kunt doen om dat te steunen.
+      </p>
+    </article>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="logo">
+        <img src="img/logo.png" alt="RepairWise logo" />
+        <p>RepairWise</p>
       </div>
-    </footer>
+      <p>© 2025 Repair Wise - Alle rechten voorbehouden</p>
+    </div>
+  </footer>
 
-    <!-- Cookies message 
+  <!-- Cookies message 
     <div id="cookie-message">
         <p>This site uses cookies to enhance your experience. &copy; 2025</p>
     </div>
     -->
 </body>
+
 </html>
