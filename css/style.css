@@ -40,7 +40,7 @@ p {
   height: 40px;
 }
 
-.logo p {
+.logo figcaption {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #fff;
