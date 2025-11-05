@@ -203,10 +203,7 @@ body {
   border-radius: 12px;
 }
 
-/* Index page */
-
-/* MAIN */
-
+/* INDEX MAIN */
 .hero-content {
   position: absolute;
   top: 50%;
@@ -246,42 +243,48 @@ body {
   background: #135dcc;
 }
 
-/* INFO GRID */
-
-.info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  background: var(--color-secondary);
-  gap: 1rem;
-  padding: 2rem;
+/* INDEX INFO GRID */
+#info-grid {
+  padding: 100px;
+  display: flex;
+  gap: 50px;          /* Space between cards */
+  flex-wrap: wrap;    /* Wrap to next line if needed */
+  justify-content: center;
 }
 
 .info-card {
-  background: #000;
-  border: 1px solid #333;
-  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  box-sizing: border-box;
   text-align: center;
-  padding: 1.5rem;
+  background-color: var(--color-secondary); /* Light grey background */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: var(--color-light);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .info-card img {
-  width: 60px;
-  margin-bottom: 1rem;
+  max-width: 100px;
+  margin-bottom: 15px;
 }
 
 .info-card h3 {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 10px;
 }
 
 .info-card p {
-  font-family: var(--font-ui);
-  font-size: 1rem;
-  line-height: 1.4;
-  color: var(--color-light);
+  font-size: 0.95rem;
 }
-
 
 /* CONTACT PAGE */
 .contact-section {
