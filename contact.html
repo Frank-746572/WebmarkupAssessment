@@ -42,7 +42,7 @@
       <p>Heb je vragen over repareren, onderdelen of iets anders? We horen graag van je!</p>
     </div>
 
-    <form class="contact-form">
+    <div class="contact-form">
       <div class="form-group">
         <label for="aanhef">Aanhef*</label>
         <select id="aanhef" name="aanhef" required>
@@ -73,8 +73,14 @@
         <textarea id="bericht" name="bericht" placeholder="Vul hier je bericht in" rows="5" required></textarea>
       </div>
 
-      <button type="submit" class="btn">Versturen</button>
-    </form>
+      <input type="checkbox" id="submitted" class="hidden-checkbox"/>
+
+      <label for="submitted" class="btn">Versturen</label>
+
+      <div class="success-message">
+        Je bericht is verzonden
+      </div>
+    </div>
   </main>
 
   <!-- Footer -->
