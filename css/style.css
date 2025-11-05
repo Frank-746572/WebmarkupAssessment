@@ -328,14 +328,22 @@ textarea {
 }
 
 /* COOKIES */
-.cookies {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  background: #fff;
-  padding: 10px;
-  border-radius: 8px;
-  z-index: 9999;
+#cookies {
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #b0b0b0;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    z-index: 9999;
 }
 
 /* FOOTER */
@@ -355,7 +363,7 @@ textarea {
   text-align: center;
 }
 
-.footer-content p {
+.footer-content figcaption {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
 }
